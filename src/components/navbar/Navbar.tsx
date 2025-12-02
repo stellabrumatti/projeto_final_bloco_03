@@ -3,11 +3,11 @@ import { Link } from "react-router-dom"
 function Navbar() {
 	return (
 		<div className="w-full bg-red-700 text-slate-50 shadow-sm sticky top-0 z-50">
-			<div className="container mx-auto flex flex-wrap items-center justify-between py-4 px-8 gap-4">
+			<div className="container mx-auto flex flex-wrap items-center justify-between py-8 px-8 gap-4">
 				
 				<Link to="/" className="hover:text-blue-600 cursor-pointer transition">
 					<img
-						src="https://ik.imagekit.io/gocq6aosm/icone%20farmacia%20popular.jpg"
+						src="https://ik.imagekit.io/gocq6aosm/icone%20farmacia%20popular-Photoroom%20sem%20fundo.png"
 						alt="Farmacia Popular"
 						className="w-20 hover:opacity-80 transition"
 					/>
