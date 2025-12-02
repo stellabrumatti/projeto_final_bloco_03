@@ -27,18 +27,13 @@ function Navbar() {
     </Link>
 
     <Link
-        to="/categoria"
+        to="/categorias"
         className="px-4 py-2 rounded-xl bg-white/10 hover:bg-blue-600 hover:text-white transition-all duration-300"
     >
-        Departamentos
+        Categorias
     </Link>
 
-    <Link
-        to="/sobre"
-        className="px-4 py-2 rounded-xl bg-white/10 hover:bg-blue-600 hover:text-white transition-all duration-300"
-    >
-        Sobre nós
-    </Link>
+    
 
 </div>
 

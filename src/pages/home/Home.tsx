@@ -1,3 +1,5 @@
+import ModalCategoria from "../../components/categorias/modalcategoria/ModalCategoria"
+import ListaCategorias from "../../components/categorias/listacategoria/ListaCategoria"
 
 
 
@@ -24,7 +26,7 @@ function Home() {
                         </p>
 
                         <div className="text-blue-800 leading-relaxed text-lg font-semibold flex justify-around gap-4">
-                        
+                            <ModalCategoria />
                         </div>
                     </div>
 
@@ -91,8 +93,8 @@ function Home() {
 
             
 
-            {/* LISTA DE categorias */}
-          {/*  <ListaCategoria> */}
+            
+           <ListaCategorias/> 
 
          
 
